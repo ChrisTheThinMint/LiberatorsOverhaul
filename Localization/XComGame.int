@@ -1,0 +1,643 @@
+[Liberators_Trooper X2SoldierClassTemplate]
++DisplayName="Operative"
+
+[Liberators_Sniper X2SoldierClassTemplate]
++DisplayName="Sharpshooter"
+
+[Liberators_Ranger X2SoldierClassTemplate]
++DisplayName="Ranger"
+
+[Liberators_Grenadier X2SoldierClassTemplate]
++DisplayName="Grenadier"
+
+[Liberators_Medic X2SoldierClassTemplate]
++DisplayName="Medic"
+
+[Liberators_Specialist X2SoldierClassTemplate]
++DisplayName="Specialist"
+
+[Liberators_Akimbo X2SoldierClassTemplate]
++DisplayName="Akimbo"
+
+[Liberators_Heavy X2SoldierClassTemplate]
++DisplayName="Heavy"
+
+[Liberators_Technical X2SoldierClassTemplate]
++DisplayName="Technical"
+
+[Liberators_MEC_Trooper X2SoldierClassTemplate]
++DisplayName="MEC Lancer"
+
+[Liberators_MEC_Sniper X2SoldierClassTemplate]
++DisplayName="MEC Jaeger"
+
+[Liberators_MEC_Ranger X2SoldierClassTemplate]
++DisplayName="MEC Marauder"
+
+[Liberators_MEC_Grenadier X2SoldierClassTemplate]
++DisplayName="MEC Archer"
+
+[Liberators_MEC_Medic X2SoldierClassTemplate]
++DisplayName="MEC Guardian"
+
+[Liberators_MEC_Specialist X2SoldierClassTemplate]
++DisplayName="MEC Pathfinder"
+
+[Liberators_MEC_Akimbo X2SoldierClassTemplate]
++DisplayName="MEC Valkyrie"
+
+[Liberators_MEC_Heavy X2SoldierClassTemplate]
++DisplayName="MEC Goliath"
+
+[Liberators_MEC_Technical X2SoldierClassTemplate]
++DisplayName="MEC Shogun"
+
+[TLE_AssaultRifle_CV X2WeaponTemplate]
+FriendlyName="Old-world Assault Rifle"
+FriendlyNamePlural="Old-world Assault Rifles"
+BriefSummary="We've managed to salvage a variety of standard infantry small arms; this is the most common variety, similar to the rifle used twenty years before. While decidedly inferior to ADVENT magnetic technology, it can at least be upgraded using additional weapons salvage once we perfect modular weapon technology."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Old-world Assault Rifle"
+
+[TLE_AssaultRifle_MG X2WeaponTemplate]
+FriendlyName="Improvised Magnetic Rifle"
+FriendlyNamePlural="Improvised Magnetic Rifles"
+BriefSummary="Magnetized projectile tech has enabled us to create rifle-style slugthrowers. They represent a substantial improvement in power relative to conventional assault rifles."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn, in the absence of special training.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Improvised Magnetic Rifle"
+
+[TLE_AssaultRifle_BM X2WeaponTemplate]
+FriendlyName="Prototype Plasma Rifle"
+FriendlyNamePlural="Prototype Plasma Rifles"
+BriefSummary="Now that we've finally deciphered the aliens' devastating weapon technology and can develop beam weapons of our own, we can build rifles that will be the match of any enemy our soldiers encounter in the field."
+TacticalText="<Bullet/> The Plasma Rifle is a general purpose, supremely powerful primary infantry weapons system.\n<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Prototype Plasma Rifle"
+
+[TLE_Cannon_CV X2WeaponTemplate]
+FriendlyName="Light Machine Gun"
+FriendlyNamePlural="Light Machine Guns"
+BriefSummary="The LMG is an improvised light support weapon, specialized for high volume fire. While decidedly inferior to ADVENT magnetic technology, it can at least be upgraded using additional weapons salvage once we perfect modular weapon technology."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Light Machine Gun"
+
+[TLE_Cannon_MG X2WeaponTemplate]
+FriendlyName="Magnetic Support Cannon"
+FriendlyNamePlural="Magnetic Support Cannons"
+BriefSummary="Magnetic weapons tech will let us deploy a rapid-fire version of the cannon. Our Grenadiers will be able to lay down a much deadlier volume of fire."
+TacticalText="<Bullet/> The Magnetic Support Cannon is a much more powerful, yet equally deployable, version of the conventional LMG.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Magnetic Support Cannon"
+
+[TLE_Cannon_BM X2WeaponTemplate]
+FriendlyName="Energy Cannon"
+FriendlyNamePlural="Energy Cannons"
+BriefSummary="Devising a more powerful, high-volume beam weapon for our Grenadiers required substantial effort, but the firepower it brings is unquestioned."
+TacticalText="<Bullet/> The Energy Cannon is the most powerful combat support weapon human forces can deploy.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Energy Cannon"
+
+[TLE_Pistol_CV X2WeaponTemplate]
+FriendlyName="Traditional Handgun"
+FriendlyNamePlural="Traditional Handguns"
+BriefSummary="XCOM Sharpshooters carry high-caliber pistols in addition to their sniper rifles. With the proper training, Sharpshooters can pose an enormous threat at close range."
+TacticalText="<Bullet/> Pistols can be much more than a sidearm in the hands of a trained Sharpshooter.\n<Bullet/> Unlike the sniper rifle, pistols can be fired with a single action.\n<Bullet/> Sharpshooters can train several abilities that dramatically enhance their use of pistols."
+AbilityDescName="Traditional Handgun"
+
+[TLE_Pistol_MG X2WeaponTemplate]
+FriendlyName="Rail Pistol"
+FriendlyNamePlural="Rail Pistols"
+BriefSummary="Based on the advances in magnetic weapons tech we've achieved, this new pistol boasts a substantial improvement in power over our conventional pistol."
+TacticalText="<Bullet/> Rail pistols are substantially more effective than their conventional precursors.\n<Bullet/> Unlike the Marksman's rifle, pistols can be fired with a single action."
+AbilityDescName="Rail Pistol"
+
+[TLE_Pistol_BM X2WeaponTemplate]
+FriendlyName="Energy Pistol"
+FriendlyNamePlural="Energy Pistols"
+BriefSummary="The ultimate sidearm, this pistol integrates the aliens' beam weapons technology to powerful effect."
+TacticalText="<Bullet/> Energy pistols are the most powerful handguns on Earth.\n<Bullet/> Unlike the Marksman's rifle, pistols can be fired with a single action."
+AbilityDescName="Energy pistol"
+
+[TLE_Shotgun_CV X2WeaponTemplate]
+FriendlyName="Shotgun"
+FriendlyNamePlural="Shotguns"
+BriefSummary="We've managed to salvage a variety of standard infantry small arms; this is a specialized weapon for close range engagement. While decidedly inferior to ADVENT magnetic technology, it can at least be upgraded using additional weapons salvage once we perfect modular weapon technology."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/> Shotguns are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Scattergun"
+
+[TLE_Shotgun_MG X2WeaponTemplate]
+FriendlyName="Augmented Shotgun"
+FriendlyNamePlural="Augmented Shotguns"
+BriefSummary="Magnetic weapons technology will let us synthesize alien alloy fragments into a spray-style projectile, and our Rangers can use it to dramatic effect: the closer the better."
+TacticalText="<Bullet/> Magnetized weapon technology makes for an especially effective improvement of XCOM's combat shotgun.\n<Bullet/> Shotgun-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Augmented Shotgun"
+
+[TLE_Shotgun_BM X2WeaponTemplate]
+FriendlyName="Energy Sweeper"
+FriendlyNamePlural="Energy Sweepers"
+BriefSummary="The Energy Sweeper fires a concentrated set of beam pulses, piercing and melting the target across a substantial surface area."
+TacticalText="<Bullet/> This is the most advanced shotgun-style weapon available in the XCOM arsenal.\n<Bullet/> Shotgun-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Energy Sweeper"
+
+[TLE_SniperRifle_CV X2WeaponTemplate]
+FriendlyName="Sniper Rifle"
+FriendlyNamePlural="Sniper Rifles"
+BriefSummary="We've managed to salvage a variety of standard infantry small arms; this is a specialized weapon for medium to long range engagement. While decidedly inferior to ADVENT magnetic technology, it can at least be upgraded using additional weapons salvage once we perfect modular weapon technology."
+TacticalText="<Bullet/> The sniper rifle always takes two actions to fire.\n<Bullet/> The sniper rifle suffers a penalty to hit at close range.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Marksman's Rifle"
+
+[TLE_SniperRifle_MG X2WeaponTemplate]
+FriendlyName="Anti-Materiel Rifle"
+FriendlyNamePlural="Anti-Materiel Rifles"
+BriefSummary="Magnetic weapons technology has particular utility for precision slow-fire weapons like sniper rifles. The Gauss Rifle will enable our Sharpshooters to cause greater damage at extended range."
+TacticalText="<Bullet/> Sniper rifles always require both actions to fire.\n<Bullet/> They are less accurate at close range, but deadly at a distance.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Anti-Materiel Rifle"
+
+[TLE_SniperRifle_BM X2WeaponTemplate]
+FriendlyName="Energy AMR"
+FriendlyNamePlural="Energy AMRs"
+BriefSummary="The aliens' focused beam technology has obvious applications for improving sniper rifles. The Plasma Lance is an unmatched sniper rifle."
+TacticalText="<Bullet/> This is the apex of sniper rifle technology.\n<Bullet/> Sniper rifles always require both actions to fire.\n<Bullet/> They are less accurate at close range, but deadly at a distance.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Energy AMR"
+
+[TLE_Sword_CV X2WeaponTemplate]
+FriendlyName="Traditional Sword"
+FriendlyNamePlural="Traditional Swords"
+BriefSummary="XCOM Rangers train in the use of edged weapons, enabling them to take out enemies in close combat."
+TacticalText="<Bullet/> Rangers can attack adjacent enemies with their sword even after using both actions to move or dash to the extent of their movement range.\n<Bullet/> The decision to engage the enemy in melee combat can be a decisive one; exercise caution.\n<Bullet/> Keep an eye out for opportunities to improve our edged weapon effectiveness - the enemy may have access to much better technology."
+AbilityDescName="Traditional Sword"
+
+[TLE_Sword_MG X2WeaponTemplate]
+FriendlyName="Experimental Blade"
+FriendlyNamePlural="Experimental Blades"
+BriefSummary="When pure kinetic energy is no longer sufficient in the field, the Arc Blade may prove necessary. It boosts the standard Sword's combat effectiveness with the addition of an electric field, capable of stunning enemies that are not killed outright."
+TacticalText="<Bullet/> The Experimental Blade adds a powerful electric burst to the sword's kinetic impact, improving its damage and adding a chance to stun enemy targets."
+AbilityDescName="Experimental Blade"
+
+[TLE_Sword_BM X2WeaponTemplate]
+FriendlyName="Advanced Blade"
+FriendlyNamePlural="Advanced Blades"
+BriefSummary="The Advanced Blade encases a plasma-heated metallic core in a micro-thin magnetic field, enabling devastating melee attacks that are capable of setting enemies aflame."
+TacticalText="<Bullet/> This is the most advanced version of the Ranger's sword, dealing maximum damage with a chance to burn enemy targets."
+AbilityDescName="Advanced Blade"
+
+[RangerKevlarArmor X2ArmorTemplate]
+FriendlyName="Improvised Kevlar Armor"
+FriendlyNamePlural="Improvised Kevlar Armor"
+BriefSummary="This basic armor consists of improvised protection cobbled together from salvage and Resistance arms caches. It provides minimal protection against ADVENT and alien weaponry."
+TacticalText="<Bullet/> All soldiers receive Kevlar Armor as part of their basic kit.\n<Bullet/> Research can give us access to better armor."
+
+[GrenadierKevlarArmor X2ArmorTemplate]
+FriendlyName="Heavy Kevlar Armor"
+FriendlyNamePlural="Heavy Kevlar Armor"
+BriefSummary="This basic armor consists of improvised protection cobbled together from salvage and Resistance arms caches. It provides minimal protection against ADVENT and alien weaponry."
+TacticalText="<Bullet/> All soldiers receive Kevlar Armor as part of their basic kit.\n<Bullet/> Research can give us access to better armor."
+
+[RangerPlatedArmor X2ArmorTemplate]
+FriendlyName="Enhanced Field Plate"
+FriendlyNamePlural="Enhanced Field Plate"
+BriefSummary="Using scavenged plates of ADVENT armor, this Armor provides increased protection and additional inventory capacity for our soldiers."
+TacticalText="<Bullet/> Mid-weight armor based on ADVENT salvage.\n<Bullet/> As a medium-class armor, it provides a slot for one additional inventory item."
+
+[GrenadierPlatedArmor X2ArmorTemplate]
+FriendlyName="Enhanced Breacher Armor"
+FriendlyNamePlural="Enhanced Breacher Armor"
+BriefSummary="Using scavenged plates of ADVENT armor, this Armor provides increased protection and additional inventory capacity for our soldiers."
+TacticalText="<Bullet/> Mid-weight armor based on ADVENT salvage.\n<Bullet/> As a medium-class armor, it provides a slot for one additional inventory item."
+
+[RangerPoweredArmor X2ArmorTemplate]
+FriendlyName="Experimental Power Armor"
+FriendlyNamePlural="Experimental Power Armor"
+BriefSummary="Our new mastery of the alien's Elerium technology has lead us to the ultimate in battle armor: the Warden Armor. Elerium powered armor provides unprecedented survivability and versatility in the battle against increasingly powerful alien enemies."
+TacticalText="<Bullet/> Top tier medium-class armor available.\n<Bullet/> Power Armor has 2 inventory item slots."
+
+[GrenadierPoweredArmor X2ArmorTemplate]
+FriendlyName="Experimental Juggernaut Suit"
+FriendlyNamePlural="Experimental Juggernaut Suit"
+BriefSummary="Our new mastery of the alien's Elerium technology has lead us to the ultimate in battle armor: the Warden Armor. Elerium powered armor provides unprecedented survivability and versatility in the battle against increasingly powerful alien enemies."
+TacticalText="<Bullet/> Top tier medium-class armor available.\n<Bullet/> Power Armor has 2 inventory item slots."
+
+;  ??????????????????????????
+;  ?   Localization Text:	?
+;  ??????????????????????????
+;  ?   Arcthrower			?
+;  ??????????????????????????
+
+[ArcThrower_CV X2WeaponTemplate]
+FriendlyName="Arc Thrower"
+FriendlyNamePlural="Arc Throwers"
+BriefSummary="Allows stunning enemies at a distance."
+TacticalText="<Bullet/> This nonlethal weapon is based on a design we found in the old XCOM archives. Strangely, the design was lacking a key, commonly available component that would have controlled the energy spread and allowed it to be used beyond close range. Our improved Arc Thrower design is effective anywhere in sight range, doing no damage but stunning the target if it hits.<br/><Bullet/> The Arc Thrower will stun the target for <Ability:WOTCLW2SW_COLOR_1_OPEN/><Ability:ARCTHROWER_CV_CLIPSIZE/><Ability:WOTCLW2SW_COLOR_CLOSE/> actions.<br/><Bullet/> Requires one action and ends the soldier's turn when fired.<br/><Bullet/> The standard Stun ability has a <Ability:WOTCLW2SW_COLOR_1_OPEN/><Ability:ARCTHROWER_STUN_COOLDOWN/><Ability:WOTCLW2SW_COLOR_CLOSE/> turn cooldown.<br/><Bullet/> Ineffective against mechanized units without additional training."
+AbilityDescName="arcthrower"
+
+[ArcThrower_MG X2WeaponTemplate]
+FriendlyName="Advanced Arc Thrower"
+FriendlyNamePlural="Advanced Arc Throwers"
+BriefSummary="Allows stunning enemies at a distance."
+TacticalText="<Bullet/> Does no damage but stuns the target if it hits.<br/><Bullet/> The Arc Thrower will stun the target for <Ability:WOTCLW2SW_COLOR_1_OPEN/><Ability:ARCTHROWER_MG_CLIPSIZE/><Ability:WOTCLW2SW_COLOR_CLOSE/> actions.<br/><Bullet/> Requires one action and ends the soldier's turn when fired.<br/><Bullet/> The standard Stun ability has a <Ability:WOTCLW2SW_COLOR_1_OPEN/><Ability:ARCTHROWER_STUN_COOLDOWN/><Ability:WOTCLW2SW_COLOR_CLOSE/> turn cooldown.<br/><Bullet/> Ineffective against mechanized units without additional training."
+AbilityDescName="arcthrower"
+
+[ArcThrower_BM X2WeaponTemplate]
+FriendlyName="Arc Blaster"
+FriendlyNamePlural="Arc Blasters"
+BriefSummary="Allows stunning enemies at a distance."
+TacticalText="<Bullet/> Does no damage but stuns the target if it hits.<br/><Bullet/> The Arc Thrower will stun the target for <Ability:WOTCLW2SW_COLOR_1_OPEN/><Ability:ARCTHROWER_BM_CLIPSIZE/><Ability:WOTCLW2SW_COLOR_CLOSE/> actions.<br/><Bullet/> Requires one action and ends the soldier's turn when fired.<br/><Bullet/> The standard Stun ability has a <Ability:WOTCLW2SW_COLOR_1_OPEN/><Ability:ARCTHROWER_STUN_COOLDOWN/><Ability:WOTCLW2SW_COLOR_CLOSE/> turn cooldown.<br/><Bullet/> Ineffective against mechanized units without additional training."
+AbilityDescName="arcthrower"
+
+[Arcthrower_MG_Schematic X2SchematicTemplate]
+m_strClassLabel="SQUAD"
+[Arcthrower_BM_Schematic X2SchematicTemplate]
+m_strClassLabel="SQUAD"
+
+[ArcThrowerStun X2AbilityTemplate]
+LocFriendlyName="Stun"
+LocLongDescription="Fire your Arc Thrower to incapacitate a target."
+LocHelpText="Fire your Arc Thrower."
+LocFlyOverText="Stun"
+LocPromotionPopupText="Fire your Arc Thrower to incapacitate a target.<br/><br/><Bullet/> The Arc Thrower is effective anywhere in the soldier's sight range, doing no damage but stunning the target if it hits.<br/><Bullet/> Improved versions can extend the duration of the stun effect.<br/><Bullet/> Some powerful enemies are resistant or immune to the stunning effect.<br/><Bullet/> Requires one action and ends the soldier's turn when fired.<br/><Bullet/> The standard Stun ability has a <Ability:WOTCLW2SW_COLOR_1_OPEN/><Ability:ARCTHROWER_STUN_COOLDOWN/><Ability:WOTCLW2SW_COLOR_CLOSE/> turn cooldown.<br/><Bullet/> Ineffective against mechanized units without additional soldier training."
+
+[EMPulser X2AbilityTemplate]
+LocFriendlyName="Arc Pulser"
+LocLongDescription="Allows your Arc Thrower's standard Stun attack to target and damage mechanical enemies, as well as reducing their defense against hacking attempts."
+LocHelpText="Fire your Arc Pulser."
+LocFlyOverText="Arc Pulser"
+LocPromotionPopupText="Allows your Arc Thrower's standard Stun attack to target and damage mechanical enemies, as well as reducing their defense against hacking attempts.<br/><br/><Bullet/> Damage to mechanical units starts at <Ability:WOTCLW2SW_COLOR_2_OPEN/><Ability:ARCTHROWER_CV_DAMAGE/><Ability:WOTCLW2SW_COLOR_CLOSE/> and increases as Arc Thrower technology improves.<br/><Bullet/> The stun effect against mechanical enemies will only remove one action from the target, regardless of the Arc Thrower technology level.<br/><Bullet/> Reduces enemy hack defense by <Ability:WOTCLW2SW_COLOR_1_OPEN/><Ability:ARCTHROWER_EMPULSER_HACK_DEFENSE_PENALTY/><Ability:WOTCLW2SW_COLOR_CLOSE/>.<br/><Bullet/> Also allows the Arc Thrower to target and set-off explosions in destructible objects."
+
+[EMPulserPassive X2AbilityTemplate]
+LocFriendlyName="Arc Pulser"
+LocLongDescription="Allows your Arc Thrower's standard Stun attack to target and damage mechanical enemies, as well as reducing their defense against hacking attempts."
+LocHelpText="Fire your Arc Pulser."
+LocFlyOverText="Arc Pulser"
+LocPromotionPopupText="Allows your Arc Thrower's standard Stun attack to target and damage mechanical enemies, as well as reducing their defense against hacking attempts.<br/><br/><Bullet/> Damage to mechanical units starts at <Ability:WOTCLW2SW_COLOR_2_OPEN/><Ability:ARCTHROWER_CV_DAMAGE/><Ability:WOTCLW2SW_COLOR_CLOSE/> and increases as Arc Thrower technology improves.<br/><Bullet/> The stun effect against mechanical enemies will only remove one action from the target, regardless of the Arc Thrower technology level.<br/><Bullet/> Reduces enemy hack defense by <Ability:WOTCLW2SW_COLOR_1_OPEN/><Ability:ARCTHROWER_EMPULSER_HACK_DEFENSE_PENALTY/><Ability:WOTCLW2SW_COLOR_CLOSE/>.<br/><Bullet/> Also allows the Arc Thrower to target and set-off explosions in destructible objects."
+
+[Electroshock X2AbilityTemplate]
+LocFriendlyName="Electroshock"
+LocLongDescription="Your Arc Thrower disorients the target when it misses."
+LocHelpText="Your Arc Thrower disorients the target when it misses."
+LocFlyOverText="Electroshock"
+LocPromotionPopupText="<Bullet/> A miss with your Arc Thrower will still disorient non-robotic targets.<br/>"
+
+[StunGunner X2AbilityTemplate]
+LocFriendlyName="Stun Gunner"
+LocLongDescription="Your Arc Thrower now has a bonus chance to hit."
+LocHelpText="Your Arc Thrower has a <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<Ability:ARCTHROWER_STUNGUNNER_AIM_BONUS/>%<Ability:WOTCLW2SW_COLOR_CLOSE/> bonus chance to hit."
+LocFlyOverText="Stun Gunner"
+LocPromotionPopupText="Your Arc Thrower has a bonus chance to hit.<br/><br/><Bullet/> The bonus increases with better Arc Thrower technology: <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<Ability:ARCTHROWER_STUNGUNNER_AIM_BONUS_CV/><Ability:WOTCLW2SW_COLOR_CLOSE/>/<Ability:WOTCLW2SW_COLOR_2_OPEN/>+<Ability:ARCTHROWER_STUNGUNNER_AIM_BONUS_MG/><Ability:WOTCLW2SW_COLOR_CLOSE/>/<Ability:WOTCLW2SW_COLOR_2_OPEN/>+<Ability:ARCTHROWER_STUNGUNNER_AIM_BONUS_BM/><Ability:WOTCLW2SW_COLOR_CLOSE/>."
+
+[ChainLightning X2AbilityTemplate]
+LocFriendlyName="Chain Lightning"
+LocLongDescription="Fire your Arc Thrower at every visible enemy who is capable of being stunned."
+LocHelpText="Fire your Arc Thrower at every visible enemy who is capable of being stunned."
+LocFlyOverText="Chain Lightning"
+LocPromotionPopupText="Fire your Arc Thrower at every visible enemy who is capable of being stunned.<br/><br/><Bullet/> Requires one action and ends your turn.<br/><Bullet/> Has a <Ability:WOTCLW2SW_COLOR_1_OPEN/><Ability:ARCTHROWER_CHAIN_LIGHTNING_COOLDOWN/><Ability:WOTCLW2SW_COLOR_CLOSE/> turn cooldown.<br/><Bullet/> Cannot be used from concealment."
+
+
+
+;  ??????????????????????????
+;  ?   Localization Text:	?
+;  ??????????????????????????
+;  ?   Combat Knife			?
+;  ??????????????????????????
+
+[CombatKnife_CV X2WeaponTemplate]
+FriendlyName="Combat Knife"
+FriendlyNamePlural="Combat Knives"
+BriefSummary="Melee weapon for personal defense in close quarters."
+TacticalText="<Bullet/> Lightweight secondary weapon - A knife attack requires one action and does not end your turn.<br/><Bullet/> Attacks with the Combat Knife have a <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:COMBATKNIFE_CV_AIM/>%<Ability:WOTCLW2SW_COLOR_CLOSE/> chance to hit."
+AbilityDescName="combat knife"
+
+[CombatKnife_MG X2WeaponTemplate]
+FriendlyName="Vibroblade"
+FriendlyNamePlural="Vibroblades"
+BriefSummary="Dangerous melee weapon for personal defense in close quarters."
+TacticalText="<Bullet/> Lightweight secondary weapon - A knife attack requires one action and does not end your turn.<br/><Bullet/> Attacks with the Vibroblade have a <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:COMBATKNIFE_MG_AIM/>%<Ability:WOTCLW2SW_COLOR_CLOSE/> chance to hit.<br/><Bullet/> The Vibroblade does more damage than a conventional knife and can pierce light armor."
+AbilityDescName="combat knife"
+
+[CombatKnife_BM X2WeaponTemplate]
+FriendlyName="Advanced Vibroblade"
+FriendlyNamePlural="Advanced Vibroblades"
+BriefSummary="Dangerous melee weapon for personal defense in close quarters. The Advanced Vibroblade has been enhanced to be sharper, stronger, and more precise."
+TacticalText="<Bullet/> Lightweight secondary weapon - A knife attack requires one action and does not end your turn.<br/><Bullet/> Attacks with the Advanced Vibroblade have a <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:COMBATKNIFE_BM_AIM/>%<Ability:WOTCLW2SW_COLOR_CLOSE/> chance to hit.<br/><Bullet/> The Advanced Vibroblade does even more damage and can pierce moderate armor."
+AbilityDescName="combat knife"
+
+[CombatKnife_MG_Schematic X2SchematicTemplate]
+m_strClassLabel="SQUAD"
+[CombatKnife_BM_Schematic X2SchematicTemplate]
+m_strClassLabel="SQUAD"
+
+[KnifeFighter X2AbilityTemplate]
+LocFriendlyName="Knife Fighter"
+LocLongDescription="You may make a melee attack with your knife against adjacent enemies."
+LocHelpText="Knife Attack"
+LocFlyOverText="Knife Fighter"
+LocPromotionPopupText="<Bullet/> Knife attacks use one action and do not end your turn.<br/>"
+
+[Combatives X2AbilityTemplate]
+LocFriendlyName="Combatives"
+LocLongDescription="Gain a <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:COMBATKNIFE_COMBATIVES_DODGE_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/> bonus to Dodge. You may parry melee attacks and counterattack with your melee weapon, if equipped."
+LocHelpText="You may parry melee attacks and counterattack with your melee weapon."
+LocFlyOverText="Combatives"
+LocPromotionPopupText="Gain a <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:COMBATKNIFE_COMBATIVES_DODGE_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/> bonus to Dodge. You may parry melee attacks and counterattack with your melee weapon, if equipped.<br/><br/><Bullet/> You are very likely to parry the first melee attack against you in a turn and counterattack with your melee weapon.<br/><Bullet/> You get the Dodge bonus even when a melee weapon is not equipped."
+
+
+
+;  ??????????????????????????
+;  ?   Localization Text:	?
+;  ??????????????????????????
+;  ?   Gauntlet				?
+;  ??????????????????????????
+
+[LWGauntlet_MG_Schematic X2SchematicTemplate]
+m_strClassLabel="SQUAD"
+[LWGauntlet_BM_Schematic X2SchematicTemplate]
+m_strClassLabel="SQUAD"
+
+[HeavyArmaments X2AbilityTemplate]
+LocFriendlyName="Heavy Armaments"
+LocFlyOverText="Heavy Armaments"
+LocLongDescription="This soldier is trained to use the XCOM gauntlet, a combination Rocket Launcher and Flamethrower."
+LocHelpText="This soldier is trained to use the XCOM gauntlet, a combination Rocket Launcher and Flamethrower."
+LocPromotionPopupText="<Bullet/> The XCOM gauntlet is an advanced device that carries both a mini-rocket launcher and a flamethrower.<br/><Bullet/> Equipping the gauntlet prevents the soldier from equipping other heavy weapons, but when a heavy weapon slot would otherwise be available, the soldier is given <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:HEAVY_ARMAMENTS_BONUS_CHARGES_COMBINED/><Ability:WOTCLW2SW_COLOR_CLOSE/> additional standard gauntlet weapon charge (rocket/flamethrower).<br/><Bullet/> Using either gauntlet ability requires one action and ends your turn.<br/><Bullet/> The flamethrower is a short-range weapon that causes damage to multiple targets within a cone-shaped area of effect. It does not damage mechanical units without upgrades.<br/><Bullet/> Rocket accuracy is affected by the soldier's aim, target distance, and whether the soldier has used any actions already this turn. Low accuracy-rockets will have higher scatter values, meaning they are more likely to miss the target tile by greater distances. The rocket's maximum possible scatter is noted in the popup, while a value appearing with the targeting cursor will show the expected (average) scatter for a shot on that location."
+
+[LWFlamethrower X2AbilityTemplate]
+LocFriendlyName="Flamethrower"
+LocFlyOverText="Flamethrower"
+LocLongDescription="Spray flames in a cone-shaped area."
+LocHelpText="Spray flames in a cone-shaped area."
+LocPromotionPopupText="<Bullet/> The flamethrower is a short-range weapon that causes damage to multiple targets within a cone-shaped area of effect.<br/><Bullet/> The flamethrower has <Ability:WOTCLW2SW_COLOR_2_OPEN/><ABILITY:LWFLAMER_BASE_CHARGES/><Ability:WOTCLW2SW_COLOR_CLOSE/> base charges. It does not damage mechanical units without upgrades.<br/><Bullet/> Requires one action and ends your turn."
+
+[LWRocketLauncher X2AbilityTemplate]
+LocFriendlyName="Rocket Launcher"
+LocHelpText="Fire a rocket at target area. <Ability:ROCKETSCATTER/>"
+
+[LWBlasterLauncher X2AbilityTemplate]
+LocFriendlyName="Blaster Bomb"
+LocHelpText="Fire a guided Blaster Bomb at a target area. <Ability:ROCKETSCATTER/>"
+
+[NapalmX X2AbilityTemplate]
+LocFriendlyName="Napalm-X"
+LocFlyOverText="Napalm-X"
+LocLongDescription="Your Flamethrower now has a chance to panic enemies."
+LocHelpText="Napalm-X"
+LocPromotionPopupText="<Bullet/> Your Flamethrower now has a chance to panic enemies. Enemy units must pass a will check to avoid negative effects."
+
+[Phosphorus X2AbilityTemplate]
+LocFriendlyName="Phosphorus"
+LocFlyOverText="Phosphorus"
+LocLongDescription="Your flamethrower can now damage mechanical units and shred armor."
+LocHelpText="Your flamethrower can now damage mechanical units and shred armor."
+LocPromotionPopupText="<Bullet/> Your flamethrower can now damage mechanical units.<br/><Bullet/> Flamethrower attacks shred <Ability:WOTCLW2SW_COLOR_2_OPEN/><ABILITY:PHOSPHORUS_BONUS_SHRED/><Ability:WOTCLW2SW_COLOR_CLOSE/> armor.</br>"
+
+[Incinerator X2AbilityTemplate]
+LocFriendlyName="Incinerator"
+LocFlyOverText="Incinerator"
+LocLongDescription="Your gauntlet flamethrower abilities have an increased range and cover a wider area of effect."
+LocHelpText="Your gauntlet flamethrower abilities have an increased range and cover a wider area of effect."
+LocPromotionPopupText="<Bullet/> Gauntlet flamethrower abilities have <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:INCINERATOR_RANGE_MULTIPLIER/>%<Ability:WOTCLW2SW_COLOR_CLOSE/> range and <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:INCINERATOR_RADIUS_MULTIPLIER/>%<Ability:WOTCLW2SW_COLOR_CLOSE/> cone width."
+
+[Roust X2AbilityTemplate]
+LocFriendlyName="Roust"
+LocFlyOverText="Roust"
+LocLongDescription="Special Flamethrower shot, shooting a narrow cone a greater distance that does limited damage but forces enemies to change their position."
+LocHelpText="Special Flamethrower shot, shooting a narrow cone a greater distance that does limited damage but forces enemies to change their position."
+LocPromotionPopupText="<Bullet/> The narrow jet of flame has less impact on the environment and a lower chance of setting enemies on fire, but units hit by the shot will be forced to move, often triggering overwatch fire.<br/><Bullet/> Has <Ability:WOTCLW2SW_COLOR_2_OPEN/><ABILITY:ROUST_CHARGES/><Ability:WOTCLW2SW_COLOR_CLOSE/> use per mission, but can gain <Ability:WOTCLW2SW_COLOR_2_OPEN/><ABILITY:ROUST_HIGH_PRESSURE_CHARGES/><Ability:WOTCLW2SW_COLOR_CLOSE/> additional use with the High Pressure Tanks ability.<br/><Bullet/> Roust cannot be used from concealment."
+
+[Burnout X2AbilityTemplate]
+LocFriendlyName="Burnout"
+LocFlyOverText="Burnout"
+LocLongDescription="Activating your Flamethrower leaves a small smoke cloud around your position, providing a defensive bonus."
+LocHelpText="Activating your Flamethrower leaves a small smoke cloud around your position, providing a defensive bonus."
+LocPromotionPopupText="<Bullet/> When fired, your Flamethrower leaves a small smoke cloud around your position, providing a <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:BURNOUT_SMOKE_DEFNESE/>%<Ability:WOTCLW2SW_COLOR_CLOSE/> defensive bonus to anyone within.<br/>"
+
+[BurnoutPassive X2AbilityTemplate]
+LocFriendlyName="Burnout"
+LocFlyOverText="Burnout"
+LocLongDescription="Activating your Flamethrower leaves a small smoke cloud around your position, providing a defensive bonus."
+LocHelpText="Activating your Flamethrower leaves a small smoke cloud around your position, providing a defensive bonus."
+LocPromotionPopupText="<Bullet/> When fired, your Flamethrower leaves a small smoke cloud around your position, providing a <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:BURNOUT_SMOKE_DEFNESE/>%<Ability:WOTCLW2SW_COLOR_CLOSE/> defensive bonus to anyone within.<br/>"
+
+[HighPressure X2AbilityTemplate]
+LocFriendlyName="High Pressure Tanks"
+LocFlyOverText="High Pressure Tanks"
+LocLongDescription="Your Flamethrower gains additional charges."
+LocHelpText="Your Flamethrower gains additional charges."
+LocPromotionPopupText="<Bullet/> Your Flamethrower's standard attack gains <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:FLAMETHROWER_HIGH_PRESSURE_CHARGES/><Ability:WOTCLW2SW_COLOR_CLOSE/> additional charges.<br/><Bullet/> Roust gains <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:ROUST_HIGH_PRESSURE_CHARGES/><Ability:WOTCLW2SW_COLOR_CLOSE/> additional charge (if you have the ability)."
+
+[Quickburn X2AbilityTemplate]
+LocFriendlyName="Quickburn"
+LocFlyOverText="Quickburn"
+LocLongDescription="Activate so your next use of the flamethrower will not cost an action."
+LocHelpText="Activate so your next use of the flamethrower will not cost an action."
+LocPromotionPopupText="<Bullet/> Activate so your next use of the flamethrower will not cost an action.<br/><Bullet/> Quickburn has a <Ability:WOTCLW2SW_COLOR_1_OPEN/><ABILITY:QUICKBURN_COOLDOWN/><Ability:WOTCLW2SW_COLOR_CLOSE/> turn cooldown.<br/>"
+
+[Firestorm X2AbilityTemplate]
+LocFriendlyName="Firestorm"
+LocFlyOverText="Firestorm"
+LocLongDescription="Once per battle, attack all units in a complete circle around the soldier's position. Also grants immunity to fire damage."
+LocHelpText="Spray fire in a complete circle around your position."
+LocPromotionPopupText="<Bullet/> This will light fires and do fire damage to all enemies in a circle around the soldier's position, doing <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:FIRESTORM_DAMAGE_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/> bonus damage over regular Flamethrower attacks.<br/><Bullet/> Firestorm also grants immunity to fire damage.<br/><Bullet/> Requires one action point and will end the soldier's turn when used.<br/><Bullet/> Usable once per battle.<br/><Bullet/> It is not recommended the soldier uses Firestorm on rooftops."
+
+[TechnicalFireImmunity X2AbilityTemplate]
+LocFriendlyName="Fire Immunity"
+LocFlyOverText="Fire Immunity"
+LocLongDescription="The Firestorm perk confers immunity to fire damage."
+LocHelpText="This unit is immune to fire damage."
+LocPromotionPopupText="<Bullet/> This unit is immune to fire damage.<br/>"
+
+[ShockAndAwe X2AbilityTemplate]
+LocFriendlyName="Shock and Awe"
+LocFlyOverText="Shock and Awe"
+LocLongDescription="Your gauntlet now carries <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:SHOCK_AND_AWE_BONUS_CHARGES/><Ability:WOTCLW2SW_COLOR_CLOSE/> additional rocket."
+LocHelpText="Your gauntlet now carries <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:SHOCK_AND_AWE_BONUS_CHARGES/><Ability:WOTCLW2SW_COLOR_CLOSE/> additional rocket."
+LocPromotionPopupText="<Bullet/> Your gauntlet now carries <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:SHOCK_AND_AWE_BONUS_CHARGES/><Ability:WOTCLW2SW_COLOR_CLOSE/> additional rocket.<br/>"
+
+[FireInTheHole X2AbilityTemplate]
+LocFriendlyName="Fire In The Hole"
+LocFlyOverText="Fire In The Hole"
+LocLongDescription="Your rockets are more accurate."
+LocHelpText="Your rockets are more accurate."
+LocPromotionPopupText="<Bullet/> Your rockets are more likely to hit their intended point of impact, or at least close to it.<br/><Bullet/> The maximum it can miss by is reduced by two tiles."
+
+[JavelinRockets X2AbilityTemplate]
+LocFriendlyName="Javelin Rockets"
+LocFlyOverText="Javelin Rockets"
+LocLongDescription="The range of your rockets is increased by <Ability:WOTCLW2SW_COLOR_2_OPEN/><ABILITY:JAVELIN_ROCKETS_BONUS_RANGE_TILES/><Ability:WOTCLW2SW_COLOR_CLOSE/> tiles and you may hit targets beyond your visual range."
+LocHelpText="The range of your rockets is increased by <Ability:WOTCLW2SW_COLOR_2_OPEN/><ABILITY:JAVELIN_ROCKETS_BONUS_RANGE_TILES/><Ability:WOTCLW2SW_COLOR_CLOSE/> tiles and you may hit targets beyond your visual range."
+LocPromotionPopupText="<Bullet/> The range of your rockets is increased by <Ability:WOTCLW2SW_COLOR_2_OPEN/><ABILITY:JAVELIN_ROCKETS_BONUS_RANGE_TILES/><Ability:WOTCLW2SW_COLOR_CLOSE/> tiles and you may hit targets beyond your visual range.<br/>"
+
+[BunkerBuster X2AbilityTemplate]
+LocFriendlyName="Bunker Buster"
+LocFlyOverText="Bunker Buster"
+LocHelpText="Fire a Bunker Buster. <Ability:ROCKETSCATTER/>"
+LocLongDescription="Fire a special rocket that destroys buildings and other objects in the environment."
+LocPromotionPopupText="<Bullet/> Fire a special rocket with a large area of effect that does moderate damage to enemies but huge damage to buildings, vehicles and other objects in the environment.<br/><Bullet/> Requires both actions and usable only once per mission.<br/>"
+
+[FireandSteel X2AbilityTemplate]
+LocFriendlyName="Fire and Steel"
+LocFlyOverText="Fire and Steel"
+LocLongDescription="Attacks with your gauntlet, and fires set by gauntlet weapons, do <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:FIRE_AND_STEEL_DAMAGE_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/> damage."
+LocHelpText="Attacks with your gauntlet, and fires set by gauntlet weapons, do <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:FIRE_AND_STEEL_DAMAGE_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/> damage."
+LocPromotionPopupText="<Bullet/> Attacks with your gauntlet, and fires set by gauntlet weapons, do <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:FIRE_AND_STEEL_DAMAGE_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/> damage.<br/><Bullet/> This applies to both rocket launcher and flamethrower weapons, and the fires they set.<br/>"
+
+[ConcussionRocket X2AbilityTemplate]
+LocFriendlyName="Concussion Rocket"
+LocFlyOverText="Concussion Rocket"
+LocLongDescription="Fire a special rocket that does limited damage but has a chance to stun or disorient organic enemies within its area of effect and leaves a cloud of smoke."
+LocHelpText="Rocket that stuns or disorients targets and leaves a smoke cloud. <Ability:ROCKETSCATTER/>"
+LocPromotionPopupText="<Bullet/> One use per mission.<br/><Bullet/> Stun and disorientation chances based on target's will score.<br/><Bullet/> Requires one action and ends the soldier's turn."
+
+
+
+;  ??????????????????????????
+;  ?   Localization Text:	?
+;  ??????????????????????????
+;  ?   Holo-Targeter		?
+;  ??????????????????????????
+
+[Holotargeter_CV X2WeaponTemplate]
+FriendlyName="Holotargeter"
+FriendlyNamePlural="Holotargeters"
+BriefSummary="Paint enemy targets to provide an aim bonus against them to the rest of the squad."
+TacticalText="<Bullet/> Grants <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:HOLOTARGETER_CV_AIM_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/> bonus aim to any unit attacking the Holotargeted unit."
+AbilityDescName="holotargeter"
+
+[Holotargeter_MG X2WeaponTemplate]
+FriendlyName="Holotargeter Mark II"
+FriendlyNamePlural="Holotargeter Mark IIs"
+BriefSummary="Paint enemy targets to provide an aim bonus against them to the rest of the squad."
+TacticalText="<Bullet/> Grants <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:HOLOTARGETER_MG_AIM_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/> bonus aim to any unit attacking the Holotargeted unit."
+AbilityDescName="holotargeter"
+
+[Holotargeter_BM X2WeaponTemplate]
+FriendlyName="Holotargeter Mark III"
+FriendlyNamePlural="Holotargeters Mark IIIs"
+BriefSummary="Paint enemy targets to provide an aim bonus against them to the rest of the squad."
+TacticalText="<Bullet/> Grants <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<ABILITY:HOLOTARGETER_BM_AIM_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/> bonus aim to any unit attacking the Holotargeted unit."
+AbilityDescName="holotargeter"
+
+[Holotargeter_MG_Schematic X2SchematicTemplate]
+m_strClassLabel="SQUAD"
+[Holotargeter_BM_Schematic X2SchematicTemplate]
+m_strClassLabel="SQUAD"
+
+[Holotarget X2AbilityTemplate]
+LocFriendlyName="Holotarget"
+LocLongDescription="Holotarget an enemy to grant<Ability:WOTCLW2SW_COLOR_2_OPEN/><Ability:HOLOTARGETER_AIM_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/> bonus aim to all attacks on this target by you and your allies for the remainder of the turn."
+LocHelpText="Holotarget an enemy to grant bonus aim to all attacks on this target by you and your allies for the remainder of the turn."
+LocFlyOverText="Holotarget"
+LocPromotionPopupText="Holotarget an enemy to grant bonus aim to all attacks on this target by you and your allies for the remainder of the turn.<br/><br/><Bullet/> Holotargeting takes a single action and the effect lasts for a single turn.<br/><Bullet/> Holotargeting is turn-ending unless the <Ability:CLASSNAME/> also has the Rapid-Targeting ability.<br/><Bullet/> Multiple holotarget effects do not stack with each other.<br/><Bullet/> The aim bonus improves with better technology: <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<Ability:HOLOTARGETER_CV_AIM_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/>/<Ability:WOTCLW2SW_COLOR_2_OPEN/>+<Ability:HOLOTARGETER_MG_AIM_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/>/<Ability:WOTCLW2SW_COLOR_2_OPEN/>+<Ability:HOLOTARGETER_BM_AIM_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/>.<br/><Bullet/> Holotargeting does not break concealment for you or your squad.<br/><Bullet/> Holotargeting can utilize Squad-Sight if the <Ability:CLASSNAME/> has it."
+
+[RapidTargeting X2AbilityTemplate]
+LocFriendlyName="Rapid Targeting"
+LocLongDescription="You may Holotarget a single enemy as a free action with a <Ability:WOTCLW2SW_COLOR_1_OPEN/><Ability:HOLOTARGETER_RAPID_TARGETING_COOLDOWN/><Ability:WOTCLW2SW_COLOR_CLOSE/> turn cooldown. In addition, Holotargeting no longer ends your turn."
+LocHelpText="Activate to Holotarget an enemy as a free action."
+LocFlyOverText="Holotarget"
+LocPromotionPopupText="You may Holotarget a single enemy as a free action with a <Ability:WOTCLW2SW_COLOR_1_OPEN/><Ability:HOLOTARGETER_RAPID_TARGETING_COOLDOWN/><Ability:WOTCLW2SW_COLOR_CLOSE/> turn cooldown. In addition, Holotargeting no longer ends your turn.<br/><br/><Bullet/> This works with HiDef Holo, Independent Tracking, and Vital Point Targeting.<br/><Bullet/> Multiple holotarget effects do not stack with each other.<br/><Bullet/> Holotargeting does not break concealment for you or your squad.<br/><Bullet/> Holotargeting can utilize Squad-Sight if the <Ability:CLASSNAME/> has it."
+
+[RapidTargeting_Passive X2AbilityTemplate]
+LocFriendlyName="Rapid Targeting"
+LocLongDescription="Using your Holotargeter no longer automatically ends your turn."
+
+[HDHolo X2AbilityTemplate]
+LocFriendlyName="HiDef Holo"
+LocLongDescription="Attacks against enemies you have Holotargeted are<Ability:WOTCLW2SW_COLOR_2_OPEN/><Ability:HOLOTARGETER_HDHOLO_CRIT_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/> more likely to critically hit."
+LocHelpText="Attacks against enemies you have Holotargeted are more likely to critically hit."
+LocFlyOverText="HiDef Holo"
+LocPromotionPopupText="Attacks against enemies you have Holotargeted are more likely to critically hit.<br/><br/><Bullet/> The critical hit bonus improves with more advanced Holotargeting devices: <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<Ability:HOLOTARGETER_CV_CRIT_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/>/<Ability:WOTCLW2SW_COLOR_2_OPEN/>+<Ability:HOLOTARGETER_MG_CRIT_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/>/<Ability:WOTCLW2SW_COLOR_2_OPEN/>+<Ability:HOLOTARGETER_BM_CRIT_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/>.<br/>"
+
+[IndependentTracking X2AbilityTemplate]
+LocFriendlyName="Independent Tracking"
+LocLongDescription="A Holotargeted enemy will remain so for <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<Ability:HOLOTARGETER_INDEPENDENT_TARGETING_BONUS_TURNS/><Ability:WOTCLW2SW_COLOR_CLOSE/> additional turn(s)."
+LocHelpText="A Holotargeted enemy will remain so for <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<Ability:HOLOTARGETER_INDEPENDENT_TARGETING_BONUS_TURNS/><Ability:WOTCLW2SW_COLOR_CLOSE/> additional turn(s)."
+LocFlyOverText="Independent Tracking"
+LocPromotionPopupText="A Holotargeted enemy will remain so for <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<Ability:HOLOTARGETER_INDEPENDENT_TARGETING_BONUS_TURNS/><Ability:WOTCLW2SW_COLOR_CLOSE/> additional turn(s).<br/><br/><Bullet/> Additional uses of Holotargeting on the same target will not stack.<br/>"
+
+[VitalPointTargeting X2AbilityTemplate]
+LocFriendlyName="Vital Point Targeting"
+LocLongDescription="Attacks against enemies you have Holotargeted deal<Ability:WOTCLW2SW_COLOR_2_OPEN/><Ability:HOLOTARGETER_VITAL_POINT_TARGETING_DAMAGE_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/> more damage."
+LocHelpText="Attacks against enemies you have Holotargeted deal more damage."
+LocFlyOverText="Vital Point Targeting"
+LocPromotionPopupText="Attacks against enemies you have Holotargeted deal more damage.<br/><br/><Bullet/> The Vital Point Targeting damage bonus increases with more advanced Holotargeting devices: <Ability:WOTCLW2SW_COLOR_2_OPEN/>+<Ability:HOLOTARGETER_CV_DAMAGE/><Ability:WOTCLW2SW_COLOR_CLOSE/>/<Ability:WOTCLW2SW_COLOR_2_OPEN/>+<Ability:HOLOTARGETER_MG_DAMAGE/><Ability:WOTCLW2SW_COLOR_CLOSE/>/<Ability:WOTCLW2SW_COLOR_2_OPEN/>+<Ability:HOLOTARGETER_BM_DAMAGE/><Ability:WOTCLW2SW_COLOR_CLOSE/>.<br/><Bullet/> Damage bonus is applied to melee and direct (non-Area of Effect) projectile attacks."
+
+[Multitargeting X2AbilityTemplate]
+LocFriendlyName="Multitargeting"
+LocLongDescription="You may Holotarget multiple enemies within an area of effect with a <Ability:WOTCLW2SW_COLOR_1_OPEN/><Ability:HOLOTARGETER_MULTI_TARGETING_COOLDOWN/><Ability:WOTCLW2SW_COLOR_CLOSE/> turn cooldown."
+LocHelpText="Holotarget multiple enemies in an area of effect."
+LocFlyOverText="Multitargeting"
+LocPromotionPopupText="You may Holotarget multiple enemies within an area of effect with a <Ability:WOTCLW2SW_COLOR_1_OPEN/><Ability:HOLOTARGETER_MULTI_TARGETING_COOLDOWN/><Ability:WOTCLW2SW_COLOR_CLOSE/> turn cooldown.<br/><br/><Bullet/> HiDef Holo, Independent Tracking, and Vital Point Targeting apply to all targets.<br/><Bullet/> Area of effect radius improves with more advanced Holotargeting devices: <Ability:WOTCLW2SW_COLOR_2_OPEN/><Ability:HOLOTARGETER_CV_RADIUS/><Ability:WOTCLW2SW_COLOR_CLOSE/>/<Ability:WOTCLW2SW_COLOR_2_OPEN/><Ability:HOLOTARGETER_MG_RADIUS/><Ability:WOTCLW2SW_COLOR_CLOSE/>/<Ability:WOTCLW2SW_COLOR_2_OPEN/><Ability:HOLOTARGETER_BM_RADIUS/><Ability:WOTCLW2SW_COLOR_CLOSE/> tiles.<br/><Bullet/> Holotargeting does not break concealment for you or your squad.<br/><Bullet/> Holotargeting can utilize Squad-Sight if the <Ability:CLASSNAME/> has it."
+
+
+
+;  ??????????????????????????
+;  ?   Localization Text:	?
+;  ??????????????????????????
+;  ?   Sawed-Off Shotgun	?
+;  ??????????????????????????
+
+[SawedOffShotgun_CV X2WeaponTemplate]
+FriendlyName="Sawed-Off Shotgun"
+FriendlyNamePlural="Sawed-Off Shotguns"
+BriefSummary="A powerful, if short-ranged, secondary weapon."
+TacticalText="<Bullet/> Adaptation of concealable pre-invasion weaponry.<br/><Bullet/> Has <Ability:WOTCLW2SW_COLOR_1_OPEN/><Ability:SAWEDOFFSHOTGUN_CV_AMMO/><Ability:WOTCLW2SW_COLOR_CLOSE/> shots per mission without upgrades."
+
+[SawedOffShotgun_MG X2WeaponTemplate]
+FriendlyName="Mag Shorty"
+FriendlyNamePlural="Mag Shorties"
+BriefSummary="An upgraded version of the sawed-off shotgun that incorporates magnetic accelerator technologies to boost its damage."
+TacticalText="<Bullet/> An upgraded version of the sawed-off shotgun that incorporates magnetic accelerator technologies to boost its damage.<br/><Bullet/> Has <Ability:WOTCLW2SW_COLOR_1_OPEN/><Ability:SAWEDOFFSHOTGUN_MG_AMMO/><Ability:WOTCLW2SW_COLOR_CLOSE/> shots per mission without upgrades."
+
+[SawedOffShotgun_BM X2WeaponTemplate]
+FriendlyName="Plasma Shorty"
+FriendlyNamePlural="Plasma Shorties"
+BriefSummary="An advanced version of the sawed-off shotgun that incorporates plasma heating elements to boost its damage."
+TacticalText="<Bullet/> An advanced version of the sawed-off shotgun that incorporates plasma heating elements to boost its damage.<br/><Bullet/> Has <Ability:WOTCLW2SW_COLOR_1_OPEN/><Ability:SAWEDOFFSHOTGUN_BM_AMMO/><Ability:WOTCLW2SW_COLOR_CLOSE/> shots per mission without upgrades."
+
+[SawedOffShotgun_MG_Schematic X2SchematicTemplate]
+m_strClassLabel="SQUAD"
+[SawedOffShotgun_BM_Schematic X2SchematicTemplate]
+m_strClassLabel="SQUAD"
+
+[PointBlank X2AbilityTemplate]
+LocFriendlyName="Point Blank"
+LocLongDescription="Fire your sawed-off shotgun at a nearby enemy."
+LocHelpText="Fire your sawed-off shotgun."
+LocFlyOverText="Point Blank"
+LocPromotionPopupText="Fire your sawed-off shotgun at a nearby enemy.<br/><br/><Bullet/> Rapidly loses accuracy beyond four tiles range.<br/><Bullet/> Uses one action, does not end turn.<br/><Bullet/> Uses one Ammo.<br/>"
+
+[BothBarrels X2AbilityTemplate]
+LocFriendlyName="Both Barrels"
+LocLongDescription="Fire both barrels of your sawed-off shotgun at a nearby enemy, doing double damage."
+LocHelpText="Fire both barrels of your sawed-off shotgun at a nearby enemy, doing double damage."
+LocFlyOverText="Both Barrels"
+LocPromotionPopupText="Fire both barrels of your sawed-off shotgun at a nearby enemy, doing double damage.<br/><br/><Bullet/> Uses one action, does not end turn.<br/><Bullet/> This shot uses two Ammo.<br/>"
+
+[PumpAction X2AbilityTemplate]
+LocFriendlyName="Pump Action"
+LocLongDescription="Gain <Ability:WOTCLW2SW_COLOR_2_OPEN/><Ability:SAWEDOFFSHOTGUN_PUMP_ACTION_AMMO_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/> extra ammo for your sawed-off shotgun."
+LocHelpText="Gain <Ability:WOTCLW2SW_COLOR_2_OPEN/><Ability:SAWEDOFFSHOTGUN_PUMP_ACTION_AMMO_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/> extra ammo for your sawed-off shotgun."
+LocFlyOverText="Pump Action"
+LocPromotionPopupText="Gain <Ability:WOTCLW2SW_COLOR_2_OPEN/><Ability:SAWEDOFFSHOTGUN_PUMP_ACTION_AMMO_BONUS/><Ability:WOTCLW2SW_COLOR_CLOSE/> extra ammo for your sawed-off shotgun.<br/>"
+
+[IRI_TemplarPoncho_Left_M X2BodyPartTemplate]
+DisplayName="No Left Arm / Scarf"
+
+[IRI_TemplarPoncho_Left_F X2BodyPartTemplate]
+DisplayName="No Left Arm / Scarf"
+
+[IRI_ShardGauntlet_SingleRight_CV X2WeaponTemplate]
+FriendlyName="Right Shard Gauntlet"
+FriendlyNamePlural="Right Shard Gauntlet"
+BriefSummary="The Templars developed this unique gauntlet to boost the Psionic potential of any user regardless of their natural talents. By tapping directly into the body, the gauntlet captures the users' latent power and amplifies it to the point that it can be focused and released on command, unleashing a deadly blade of pure Psionic energy."
+TacticalText="<Bullet/> Templars can attack adjacent enemies with their shard even after using both actions to move or dash to the extent of their movement range.\n<Bullet/> The decision to engage the enemy in melee combat can be a decisive one; exercise caution.\n<Bullet/> Keep an eye out for opportunities to improve our edged weapon effectiveness - the enemy may have access to much better technology."
+AbilityDescName="shard"
+
+[IRI_ShardGauntlet_SingleRight_MG X2WeaponTemplate]
+FriendlyName="Right Tempest Gauntlet"
+FriendlyNamePlural="Right Tempest Gauntlets"
+BriefSummary="Templar gauntlets were designed to amplify the user's Psionic energy, but at their core, they are still gauntlets--stout, metallic gloves capable of withstanding extremes well beyond what flesh alone can take. With magnetic plating layered over the existing structure, they now provide much more than the original enhancement they were created for."
+TacticalText="<Bullet/> Templars can attack adjacent enemies with their shard even after using both actions to move or dash to the extent of their movement range.\n<Bullet/> The decision to engage the enemy in melee combat can be a decisive one; exercise caution.\n<Bullet/> Keep an eye out for opportunities to improve our edged weapon effectiveness - the enemy may have access to much better technology."
+AbilityDescName="shard"
+
+[IRI_ShardGauntlet_SingleRight_BM X2WeaponTemplate]
+FriendlyName="Right Celestial Gauntlet"
+FriendlyNamePlural="Right Celestial Gauntlets"
+BriefSummary="A small Elerium power cell scavenged from an unknown piece of ADVENT technology has provided the Templars with a means of further amplifying the Psionic energy harnessed by this gauntlet. It is still unknown whether it is their mastery of this power, or the technology they have created that allows this blend of opposing forces."
+TacticalText="<Bullet/> Templars can attack adjacent enemies with their shard even after using both actions to move or dash to the extent of their movement range.\n<Bullet/> The decision to engage the enemy in melee combat can be a decisive one; exercise caution.\n"
+AbilityDescName="shard"

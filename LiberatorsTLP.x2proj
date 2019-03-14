@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>cce6680b-5dcc-4c63-8f1d-4777547c0693</Guid>
+    <Name>Liberators Overhaul</Name>
+    <Description>Description of My XCOM 2 Mod.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>LiberatorsTLP</AssemblyName>
+    <RootNamespace>LiberatorsTLP</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Config\LW2SecondaryWeapons" />
+    <Folder Include="Config\MECs" />
+    <Folder Include="Content\LW2SecondaryWeapons" />
+    <Folder Include="Localization\" />
+    <Folder Include="Content" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\LiberatorsOverhaul\" />
+    <Folder Include="Src\LiberatorsOverhaul\Classes\" />
+    <Folder Include="Src\LW2SecondaryWeapons\Classes" />
+    <Folder Include="Src\LW_Tuple" />
+    <Folder Include="Src\LW2SecondaryWeapons" />
+    <Folder Include="Src\LW_Tuple\Classes" />
+    <Folder Include="Src\NewPromotionScreenByDefault" />
+    <Folder Include="Src\NewPromotionScreenByDefault\Classes" />
+    <Folder Include="Src\XModBase_Core_2_0_1\Classes" />
+    <Folder Include="Src\XModBase_Interfaces" />
+    <Folder Include="Src\XModBase_Core_2_0_1" />
+    <Folder Include="Src\XModBase_Interfaces\Classes" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\LW2SecondaryWeapons\XComAI.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\LW2SecondaryWeapons\XComClassData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\LW2SecondaryWeapons\XComEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\LW2SecondaryWeapons\XComEngine.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\LW2SecondaryWeapons\XComGame.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\LW2SecondaryWeapons\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\LW2SecondaryWeapons\XComGameData_SoldierSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\LW2SecondaryWeapons\XComGameData_WeaponData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\LW2SecondaryWeapons\XComLW2SecondariesWOTC.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\LW2SecondaryWeapons\XComUI.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\MECs\XComClassData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\MECs\XComGameCore.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\MECs\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComClassData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPromotionUIMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\LW2SecondaryWeapons\FX_CHA_SectopodDrone.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\LW2SecondaryWeapons\FX_Holograms.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\LW2SecondaryWeapons\FX_Holo_Targeting.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\LW2SecondaryWeapons\FX_Shaders.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\LW2SecondaryWeapons\FX_VH_Shiv.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\LW2SecondaryWeapons\FX_WP_AssaultRifle.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\LW2SecondaryWeapons\LWArcthrowerWOTC.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\LW2SecondaryWeapons\LWCombatKnifeWOTC.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\LW2SecondaryWeapons\LWHolotargeterWOTC.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\LW2SecondaryWeapons\LWSawedoffShotgunWOTC.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\LW2SecondaryWeapons\LWSoldierSockets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\LW2SecondaryWeapons\UILibrary_LWSecondariesWOTC.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\LW2SecondaryWeapons\WOTC_LW2SecondaryWeapons_ModShaderCache.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\LW2SecondaryWeapons\WP_Holo_Targeting.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\NewPromotionScreenByDefault.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\WOTC_LW2SecondaryWeapons.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\XComGame.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Src\LiberatorsOverhaul\Classes\Examples.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\X2DownloadableContentInfo_LiberatorsOverhaul.uc" />
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBAbility.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBAbilityTrigger_EventListener.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_AbilityCost.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_AbilityHitResult.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_AbilityName.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_AbilityProperty.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_Concealed.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_CoverType.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_Dead.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_HeightAdvantage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_MatchingWeapon.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_ReactionFire.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_SourceAbilities.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_WeaponName.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffectUtilities.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_AbilityCostRefund.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_AddAbility.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_AddAbilityCharges.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_AddItemCharges.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_AddUtilityItem.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_BonusDamageByDamageType.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_BonusRadius.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_ChangeHitResultForAttacker.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_ConditionalBonus.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_ConditionalStatChange.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_DoNotConsumeAllPoints.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_Extended.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_GrantReserveActionPoint.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_PermanentStatChange.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_RevealUnit.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_ToHitModifierByRange.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBTemplateUtilities.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBValue.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBValue_Distance.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBValue_UnitValue.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaul\Classes\XMBValue_Visibility.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\UIScrollingTextField.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\UIUtilities_LW.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2AbilityCharges_BonusCharges.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2AbilityMultiTarget_Cone_LWFlamethrower.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2AbilityTag_LW2SecondariesWOTC.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2AbilityToHitCalc_StatCheck_LWFlamethrower.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Ability_ArcthrowerAbilitySet.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Ability_CombatKnifeAbilitySet.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Ability_GauntletAbilitySet.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Ability_HolotargeterAbilitySet.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Ability_SawedOffShotgunAbilitySet.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Action_Fire_Firestorm.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Action_Fire_Flamethrower_LW.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Condition_HolotargeterSquadsightEffect.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Condition_Phosphorus.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Condition_SourceEffectRequirement.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Condition_SourceHasHeavyWeaponSlot.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Condition_TacticalToTacticalTransfer.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Condition_ValidWeaponType.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2DownloadableContentInfo_WOTC_LW2SecondaryWeapons.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Effect_AbilityDamageMult.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Effect_AddAmmo.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Effect_ApplyAltWeaponDamage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Effect_ApplyFireToWorld_Limited.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Effect_Arcthrower.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Effect_ArcthrowerStunned.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Effect_BonusRocketCharges.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Effect_DoubleDamage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Effect_FallBack.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Effect_LoadPerks.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Effect_LWHolotarget.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Effect_ModifyAbilityCharges.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Effect_Phosphorus.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Effect_Quickburn.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Effect_RemoveStunOnTeamChanges.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Effect_RoustDamage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Effect_StunGunner.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2EventListener_LW2SecondaryWeapons.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Item_ArcthrowerWeapon.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Item_LWCombatKnife.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Item_LWGauntlet.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Item_LWHolotargeter.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2Item_LWSawedOffShotgun.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2MultiWeaponTemplate.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2TargetingMethod_Cone_Flamethrower_LW.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2TargetingMethod_LWBlasterLauncher.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW2SecondaryWeapons\Classes\X2TargetingMethod_LWRocketLauncher.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW_Tuple\Classes\LWTuple.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\NewPromotionScreenByDefault\Classes\NewPromotionScreenByDefault_PromotionScreenListener.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\NewPromotionScreenByDefault\Classes\NPSBDP_UIArmory_PromotionHero.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\NewPromotionScreenByDefault\Classes\NPSBDP_UIArmory_PromotionHeroColumn.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\NewPromotionScreenByDefault\Classes\X2DownloadableContentInfo_NewPromotionScreenbyDefault.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase_Core_2_0_1\Classes\XMBAbilityCost_ActionPoints.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase_Core_2_0_1\Classes\XMBAbilityMultiTarget_Radius.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase_Core_2_0_1\Classes\XMBAbilityTag.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase_Core_2_0_1\Classes\XMBAbilityToHitCalc_StandardAim.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase_Core_2_0_1\Classes\XMBConfig.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase_Core_2_0_1\Classes\XMBDownloadableContentInfo_XModBase.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase_Core_2_0_1\Classes\XMBTargetingMethod_Grenade.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase_Interfaces\Classes\XMBEffectInterface.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase_Interfaces\Classes\XMBOverrideInterface.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

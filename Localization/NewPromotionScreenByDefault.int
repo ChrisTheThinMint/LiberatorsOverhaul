@@ -1,0 +1,17 @@
+[NPSBDP_UIArmory_PromotionHero]
+m_strMutuallyExclusive="Mutually exclusive with:"
+m_strProficiencyUnlock="This ability is unlocked automatically when the soldier reaches the required rank."
+m_strStatGainsHeader="Purchasing this ability grants the following stats: "
+
+m_strStatHP=Health
+m_strStatShieldHP=Ablative
+m_strStatOffense=Aim
+m_strStatDefense=Defense
+m_strStatDodge=Dodge
+m_strStatWill=Will
+m_strStatMobility=Mobility
+m_strStatHacking=Hack
+m_strStatSightRadius=Vision
+m_strStatArmorMitigation=Armor
+m_strStatPsiOffense=Psi Offense
+m_strStatCritChance=Crit
