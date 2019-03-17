@@ -13,6 +13,7 @@
 //  default.HalfCoverCondition		The target is in half cover
 //  default.NoCoverCondition		The target is not in cover
 //  default.FlankedCondition		The target is not in cover and can be flanked
+//  default.CantTakeCoverCondition	The target is not in cover and cannot be flanked
 //
 //  EXAMPLES
 //
@@ -35,6 +36,7 @@ class XMBCondition_CoverType extends X2Condition;
 var array<ECoverType> AllowedCoverTypes;
 var array<ECoverType> ExcludedCoverTypes;
 var bool bRequireCanTakeCover;
+var bool bForceCannotTakeCover;
 var bool bCheckRelativeToSource;
 
 event name CallMeetsConditionWithSource(XComGameState_BaseObject kTarget, XComGameState_BaseObject kSource)
@@ -96,6 +98,14 @@ event name CallMeetsCondition(XComGameState_BaseObject kTarget)
 	{
 		kTarget = History.GetPreviousGameStateForObject(kTarget);
 		TargetUnit = XComGameState_Unit(kTarget);
+	}
+
+	if (bForceCannotTakeCover)
+	{
+		if (TargetUnit == none)
+			return 'AA_NotAUnit';
+		if (TargetUnit.GetMyTemplate().bCanTakeCover)
+			return 'AA_InvalidTargetCoverType';
 	}
 
 	if (bRequireCanTakeCover)

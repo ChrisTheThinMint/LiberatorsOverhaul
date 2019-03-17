@@ -93,6 +93,7 @@ static function EventListenerReturn OnEvent(Object EventData, Object EventSource
 	}
 
 	SourceAbilityState = XComGameState_Ability(CallbackData);
+    `LOG("=== Trigger for " $ SourceAbilityState.GetMyTemplateName()); // TODO
 	SourceAbilityState = XComGameState_Ability(History.GetGameStateForObjectID(SourceAbilityState.ObjectID));
 	if (SourceAbilityState == none)
 		return ELR_NoInterrupt;

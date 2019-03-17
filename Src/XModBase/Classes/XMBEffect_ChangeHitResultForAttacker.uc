@@ -108,7 +108,7 @@ function bool ChangeHitResultForAttacker(XComGameState_Unit Attacker, XComGameSt
 	return true;
 }
 
-function private name ValidateAttack(XComGameState_Effect EffectState, XComGameState_Unit Attacker, XComGameState_Unit Target, XComGameState_Ability AbilityState)
+function protected name ValidateAttack(XComGameState_Effect EffectState, XComGameState_Unit Attacker, XComGameState_Unit Target, XComGameState_Ability AbilityState)
 {
 	local name AvailableCode;
 

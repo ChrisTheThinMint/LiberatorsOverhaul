@@ -37,6 +37,7 @@ var name CountValueName;							// Name of the unit value to use to count the num
 var int MaxRefundsPerTurn;							// Maximum number of actions to refund per turn. Requires CountUnitValue to be set.
 var bool bFreeCost;									// Make the ability usable without any action points if the conditions are met.
 													// Not compatible with any conditions that depend on the target or result of the ability.
+var bool bRefundSinglePoint;						// If true, only refund one action point, instead of all action points that were spent.
 
 
 //////////////////////////
@@ -93,7 +94,14 @@ function bool PostAbilityCostPaid(XComGameState_Effect EffectState, XComGameStat
 		AbilityState = XComGameState_Ability(`XCOMHISTORY.GetGameStateForObjectID(EffectState.ApplyEffectParameters.AbilityStateObjectRef.ObjectID));
 		if (AbilityState != none)
 		{
-			SourceUnit.ActionPoints = PreCostActionPoints;
+            if(bRefundSinglePoint)
+            {
+                SourceUnit.ActionPoints.AddItem(class'X2CharacterTemplateManager'.default.StandardActionPoint);
+            }
+            else
+            {
+                SourceUnit.ActionPoints = PreCostActionPoints;
+            }
 
 			if (CountValueName != '')
 			{
@@ -173,4 +181,5 @@ DefaultProperties
 	DuplicateResponse = eDupe_Ignore
 	bShowFlyOver = true
 	MaxRefundsPerTurn = -1;
+    bRefundSinglePoint = false;
 }
