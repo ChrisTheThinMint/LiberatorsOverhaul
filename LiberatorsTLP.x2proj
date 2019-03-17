@@ -15,6 +15,7 @@
     <Folder Include="Content\LW2SecondaryWeapons" />
     <Folder Include="Localization\" />
     <Folder Include="Content" />
+    <Folder Include="Localization\Perks" />
     <Folder Include="Src\" />
     <Folder Include="Src\LiberatorsOverhaul\" />
     <Folder Include="Src\LiberatorsOverhaul\Classes\" />
@@ -22,8 +23,10 @@
     <Folder Include="Src\LW_Tuple" />
     <Folder Include="Src\LW2SecondaryWeapons" />
     <Folder Include="Src\LW_Tuple\Classes" />
+    <Folder Include="Src\XModBase" />
     <Folder Include="Src\NewPromotionScreenByDefault" />
     <Folder Include="Src\NewPromotionScreenByDefault\Classes" />
+    <Folder Include="Src\XModBase\Classes" />
     <Folder Include="Src\XModBase_Core_2_0_1\Classes" />
     <Folder Include="Src\XModBase_Interfaces" />
     <Folder Include="Src\XModBase_Core_2_0_1" />
@@ -72,7 +75,25 @@
     <Content Include="Config\XComClassData.ini">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_SoldierSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_WeaponData.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\XComPromotionUIMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComVestSlot.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\FX_ShadowOps_Dragoon.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\LongWar2AbilitiesforWotC_ModShaderCache.upk">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Content\LW2SecondaryWeapons\FX_CHA_SectopodDrone.upk">
@@ -117,7 +138,49 @@
     <Content Include="Content\LW2SecondaryWeapons\WP_Holo_Targeting.upk">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Content\LW_Perk_CloseEncounters.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\LW_Perk_Psi_MindMerge.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_ShadowOps_HunterMark.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Perk_ShadowOps_ShieldProtocol.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_BlackOps.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_FavidsPerkPack.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_LW_PerkPack.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_SOCombatEngineer.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_SODragoon.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_SOHunter.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_SOInfantry.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_XPerkIconPack.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\WOTC_ExtendedPerkPack_ModShaderCache.upk">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Localization\NewPromotionScreenByDefault.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\Perks\XComGame.int">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Localization\WOTC_LW2SecondaryWeapons.int">
@@ -131,116 +194,28 @@
     <Content Include="Config\XComEditor.ini" />
     <Content Include="Config\XComEngine.ini" />
     <Content Include="Config\XComGame.ini" />
-    <Content Include="Src\LiberatorsOverhaul\Classes\Examples.uc">
+    <Content Include="Src\LiberatorsOverhaul\Classes\X2Ability_LiberatorsOperativePerks.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\X2DownloadableContentInfo_LiberatorsOverhaul.uc" />
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBAbility.uc">
+    <Content Include="Src\LiberatorsOverhaul\Classes\X2Effect_Liberators_AntiArmor.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBAbilityTrigger_EventListener.uc">
+    <Content Include="Src\LiberatorsOverhaul\Classes\X2Effect_Liberators_Executioner.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_AbilityCost.uc">
+    <Content Include="Src\LiberatorsOverhaul\Classes\X2Effect_LW2WotC_Aggression.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_AbilityHitResult.uc">
+    <Content Include="Src\LiberatorsOverhaul\Classes\X2Effect_LW2WotC_Bombardier.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_AbilityName.uc">
+    <Content Include="Src\LiberatorsOverhaul\Classes\X2Effect_LW2WotC_DamnGoodGround.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_AbilityProperty.uc">
+    <Content Include="Src\LiberatorsOverhaul\Classes\X2Effect_LW2WotC_Sentinel.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_Concealed.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_CoverType.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_Dead.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_HeightAdvantage.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_MatchingWeapon.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_ReactionFire.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_SourceAbilities.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBCondition_WeaponName.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffectUtilities.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_AbilityCostRefund.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_AddAbility.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_AddAbilityCharges.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_AddItemCharges.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_AddUtilityItem.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_BonusDamageByDamageType.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_BonusRadius.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_ChangeHitResultForAttacker.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_ConditionalBonus.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_ConditionalStatChange.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_DoNotConsumeAllPoints.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_Extended.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_GrantReserveActionPoint.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_PermanentStatChange.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_RevealUnit.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBEffect_ToHitModifierByRange.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBTemplateUtilities.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBValue.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBValue_Distance.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBValue_UnitValue.uc">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Src\LiberatorsOverhaul\Classes\XMBValue_Visibility.uc">
+    <Content Include="Src\LiberatorsOverhaul\Classes\X2Effect_LW2WotC_TacticalSense.uc">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Src\LW2SecondaryWeapons\Classes\UIScrollingTextField.uc">
@@ -397,6 +372,117 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Src\NewPromotionScreenByDefault\Classes\X2DownloadableContentInfo_NewPromotionScreenbyDefault.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\Examples.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBAbility.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBAbilityTrigger_EventListener.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBCondition_AbilityCost.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBCondition_AbilityHitResult.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBCondition_AbilityName.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBCondition_AbilityProperty.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBCondition_Concealed.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBCondition_CoverType.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBCondition_Dead.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBCondition_HeightAdvantage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBCondition_MatchingWeapon.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBCondition_ReactionFire.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBCondition_SourceAbilities.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBCondition_WeaponName.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBEffectUtilities.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBEffect_AbilityCostRefund.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBEffect_AddAbility.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBEffect_AddAbilityCharges.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBEffect_AddItemCharges.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBEffect_AddUtilityItem.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBEffect_BonusDamageByDamageType.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBEffect_BonusRadius.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBEffect_ChangeHitResultForAttacker.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBEffect_ConditionalBonus.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBEffect_ConditionalStatChange.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBEffect_DoNotConsumeAllPoints.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBEffect_Extended.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBEffect_GrantReserveActionPoint.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBEffect_PermanentStatChange.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBEffect_RevealUnit.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBEffect_ToHitModifierByRange.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBTemplateUtilities.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBValue.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBValue_Distance.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBValue_UnitValue.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XModBase\Classes\XMBValue_Visibility.uc">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Src\XModBase_Core_2_0_1\Classes\XMBAbilityCost_ActionPoints.uc">

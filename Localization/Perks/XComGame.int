@@ -1,0 +1,109 @@
+[Lib_WalkFire X2AbilityTemplate]
+LocFriendlyName="Walk Fire"
+LocFlyOverText="Walk Fire"
+LocLongDescription="An unaimed, sustained barrage that consumes additional ammo and deals less damage, but is more likely to hit the enemy and shreds some armor."
+LocHelpText="Special shot: +20 aim, 1 shred, -50 crit, 50% damage, uses 2 ammo."
+LocPromotionPopupText="<Bullet/> This is a special shot in which the soldier adjusts their aim in the middle of an automatic weapon burst, conferring +20 aim and +1 armor shredding, at the cost of -50 crit and only 50% damage.<br/><Bullet/> Consumes 2 ammo.<br/><Bullet/> 2 turn cooldown.<br/>"
+
+[Lib_Allrounder X2AbilityTemplate]
+LocFriendlyName="Allrounder"
+LocLongDescription="You may train one additional bonus perk before you suffer from increasing AP costs. (Currently unimplemented)"
+LocPromotionPopupText="<Bullet/><br/>"
+
+[Lib_GrenadeSlot X2AbilityTemplate]
+LocFriendlyName="Grenade Belt"
+LocLongDescription="Provides an additional grenade-only inventory slot."
+LocHelpText=""
+LocFlyOverText=""
+LocPromotionPopupText="<Bullet/><br/>"
+
+[Lib_WellProtected X2AbilityTemplate]
+LocFriendlyName="Well Protected"
+LocLongDescription="Grants an additional vest-only inventory slot."
+LocHelpText=""
+LocFlyOverText=""
+LocPromotionPopupText="<Bullet/><br/>"
+
+[Lib_Sprinter X2AbilityTemplate]
+LocFriendlyName="Sprinter"
+LocLongDescription="Gain +3 mobility."
+LocHelpText=""
+LocFlyOverText=""
+LocPromotionPopupText="<Bullet/><br/>"
+
+[Lib_Sentinel X2AbilityTemplate]
+LocFriendlyName="Sentinel"
+LocLongDescription="When on overwatch, you may take two reaction shots."
+LocHelpText=""
+LocFlyOverText=""
+LocPromotionPopupText="<Bullet/><br/>"
+
+[Lib_FullKit X2AbilityTemplate]
+LocFriendlyName="FullKit"
+LocLongDescription="Equipped grenades have two charges."
+LocHelpText=""
+LocFlyOverText=""
+LocPromotionPopupText="<Bullet/><br/>"
+
+[Lib_TacticalSense X2AbilityTemplate]
+LocFriendlyName="Tactical Sense"
+LocLongDescription="Gain +4 defense per enemy in sight, up to a max of +20."
+LocHelpText=""
+LocFlyOverText=""
+LocPromotionPopupText="<Bullet/><br/>"
+
+[Lib_Opportunist X2AbilityTemplate]
+LocFriendlyName="Opportunist"
+LocLongDescription="Reaction shots ignore 50% of enemy cover defense."
+LocHelpText=""
+LocFlyOverText=""
+LocPromotionPopupText="<Bullet/><br/>"
+
+[Lib_Bombardier X2AbilityTemplate]
+LocFriendlyName="Strongarm"
+LocLongDescription="You may throw grenades 50% (5 tiles) further."
+LocHelpText=""
+LocFlyOverText=""
+LocPromotionPopupText="<Bullet/><br/>"
+
+[Lib_BoostedCores X2AbilityTemplate]
+LocFriendlyName="Boosted Cores"
+LocLongDescription="Explosive grenades deal +1 damage."
+LocHelpText=""
+LocFlyOverText=""
+LocPromotionPopupText="<Bullet/><br/>"
+
+[Lib_CombatFitness X2AbilityTemplate]
+LocFriendlyName="Combat Fitness"
+LocLongDescription="Gain various stat boosts."
+LocHelpText=""
+LocFlyOverText=""
+LocPromotionPopupText="<Bullet/><br/>"
+
+[Lib_Executioner X2AbilityTemplate]
+LocFriendlyName="Executioner"
+LocLongDescription="Gain bonus aim against enemies based on their remaining health. Attacks against enemies below 50% HP are guaranteed to graze."
+LocHelpText=""
+LocFlyOverText=""
+LocPromotionPopupText="<Bullet/><br/>"
+
+[Lib_DamnGoodGround X2AbilityTemplate]
+LocFriendlyName="Damn Good Ground"
+LocLongDescription="Height advantage confers a further +10 aim and +20 defense."
+LocHelpText=""
+LocFlyOverText=""
+LocPromotionPopupText="<Bullet/><br/>"
+
+[Lib_HeavyImpact X2AbilityTemplate]
+LocFriendlyName="Heavy Impact"
+LocLongDescription="Ranged attacks pierce and shred two additional points of armor."
+LocHelpText=""
+LocFlyOverText=""
+LocPromotionPopupText="<Bullet/><br/>"
+
+[Lib_Steadfast X2AbilityTemplate]
+LocFriendlyName="Steadfast"
+LocLongDescription="Gain immunity against Disorientation, Panic, Stuns and Unconsciousness."
+LocHelpText=""
+LocFlyOverText=""
+LocPromotionPopupText="<Bullet/><br/>"
